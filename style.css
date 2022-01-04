@@ -2,8 +2,65 @@ body{
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 h1{
+    color: wheat;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: url(picture/bg6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+.welcome{
+    background-image: url(picture/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.paragraph{
+    color: yellow;
+    font-weight: 300;
+}
+h1{
     font-size: 60px;
 }
 .h1color{
     color: hotpink;
+}
+.h2color{
+    color: orange;
+    box-shadow: 10px 8px 5px indianred;
+    border-image: linear-gradient(to left top, tomato, blue) 20;
+    border-image-slice: 1, 3;
+    border-radius: 10px;
+}
+.half-width{
+    margin: 10px;
+    padding: 10px;
+
+}
+.aboutMe{
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    background-color: orangered;
+    color: papayawhip;
+    background-image: linear-gradient(navy, cyan);
+    font-weight: 400;
+    box-shadow: 10px 5px 5px rosybrown;
+}
+.half-width{
+    height: 80%;
+    margin: 10% 10%;
+    padding: 10px;
+}
+#image{
+    height: 300px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 50px;margin-right: 20px;
 }
