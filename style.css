@@ -4,7 +4,7 @@ body{
 h1{
     color: wheat;
 }
-section{
+.section1{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -14,8 +14,28 @@ section{
     background-position: center;
     height: 500px;
 }
-.welcome{
+.section2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     background-image: url(picture/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+.section2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: url(picture/bg9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+.welcome{
+    background-image: url(picture/bg8.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -23,6 +43,7 @@ section{
 .paragraph{
     color: yellow;
     font-weight: 300;
+    font-size: large;
 }
 h1{
     font-size: 60px;
@@ -48,19 +69,20 @@ h1{
     text-align: center;
     background-color: orangered;
     color: papayawhip;
-    background-image: linear-gradient(navy, cyan);
+    background-image: linear-gradient(hotpink, orange);
     font-weight: 400;
     box-shadow: 10px 5px 5px rosybrown;
+    border: 2px solid;
 }
 .half-width{
-    height: 80%;
     margin: 10% 10%;
     padding: 10px;
 }
-#image{
+.image{
     height: 300px;
     width: 300px;
-    margin-top: 30px;
+    margin-top: 0px;
     margin-left: 30px;
-    margin-bottom: 50px;margin-right: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
 }
